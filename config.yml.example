@@ -1,0 +1,17 @@
+hosts:
+    - hosted.somewhere.cache.amazonaws.com:
+        port: 11211
+    - rails.2ljlsdmflw.cache.amazonaws.com:
+        port: 11211
+    - another-server.asdf2.cfg.use1.cache.amazonaws.com:
+        port: 11211
+
+elasticsearch:
+    hosts:
+        - esh.yourcompany.com
+    args:
+        use_ssl: true
+        port: 443
+
+script_args:
+    poll_interval: 1
